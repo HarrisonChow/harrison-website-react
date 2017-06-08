@@ -6,7 +6,7 @@ export default class Skills extends Component {
 
     return (
       <div className='Skills'>
-        Skills
+        React, Node, Relay, GraphicQL, Javascript, jQuery, D3, HTML5, CSS3, Bootstrap, Photoshop, Backbone, Ruby, Rails, PostgreSQL, MySQL, Github, PHP, Magento
       </div>
     );
   }
