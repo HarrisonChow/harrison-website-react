@@ -1,0 +1,244 @@
+.badges {
+  margin-right: 25px;
+}
+.scaling-svg {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search {
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  height: 40px;
+
+}
+.mainBtn {
+  margin: 10px;
+}
+.mainBtns {
+  margin: 5px;
+  font-size: 40px;
+}
+.moreDetails {
+  padding: 30px;
+}
+
+:focus {
+  outline: 0;
+}
+.pattern {
+  border-radius: 5px;
+  margin: 100px;
+}
+.header {
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 35px;
+  font-weight: 1500;
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+div.tooltips {
+    position: absolute;
+    text-align: left;
+    width: 125px;
+    height: 55px;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    pointer-events: none;
+}
+.logistic-title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+}
+.logistic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+}
+.order, .parcel {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  /*display: flex;*/
+}
+
+.searchBar {
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-right: 25px;
+}
+
+.searchBar input#search {
+  margin-top: 7px;
+  width: 300px;
+  height: 35px;
+  background: #fff;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #000;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+.searchBar button.icon {
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  border: none;
+  background: white;
+  margin-top: 7px;
+  height: 35px;
+  width: 50px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.searchBar:hover button.icon, .searchBar:active button.icon, .searchBar:focus button.icon {
+  outline: none;
+  opacity: 1;
+  margin-left: -50px;
+}
+
+.searchBar:hover button.icon:hover {
+  background: white;
+}
+
+.pageButton {
+  padding: 30px 0;
+  text-align: center;
+}
+.backButton, .nextButton {
+  margin: 0 25px;
+}
+
+.orderStastic {
+  margin-top: 55px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.footer {
+  color: #777;
+  padding: 10px 15px;
+  height: 20px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+              0 8px 0 -3px #f6f6f6,
+              0 9px 1px -3px rgba(0, 0, 0, 0.2),
+              0 16px 0 -6px #f6f6f6,
+              0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+
+#map {
+  height: 80vh;
+}
+.order-details, .parcel-details {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 35px;
+}
+.parcel-details {
+  padding-top: 35px;
+}
+.next-pre-button {
+  padding: 40px 0;
+  text-align: center;
+}
+.top-buttons {
+  text-align: center;
+  margin-top: 55px;
+}
+.fast-button {
+  margin-right: 25px;
+}
+.date-picker,.select-field{
+  display: inline;
+}
+.date-picker {
+  padding-left: 100px;
+}
+.date-picker-from,.date-picker {
+  float: left;
+  width: 50%;
+}
+.date-picker-to {
+  float: right;
+  width: 50%;
+}
+.drop-down-menu {
+  float: right;
+  padding-right: 100px;
+}
+.drawers {
+  font-weight: 600;
+}
+.drawers a:hover {
+  text-decoration: none;
+}
+.middle-divider {
+  border-right: 1px solid #BDBDBD;
+}
+.track-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.DropDownMenu{
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 568px) {
+  .DropDownMenu{
+    font-size: 15px;
+  }
+  .scaling-svg {
+    height: 10vh;
+  }
+}
